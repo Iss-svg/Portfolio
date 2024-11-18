@@ -77,10 +77,7 @@ width: 55%;
  .lacarte{
     width: 1000px;
     background-color: #2746f3;
+    border-radius: 15px;
 
  }
-
-.gap{
-    gap: 15px;
-}
 
