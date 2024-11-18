@@ -28,6 +28,14 @@ html{
     margin: auto;
 }
 
+.btn{
+    background-color: #0948f6;
+    border-radius: 4px;
+    padding: 10px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+}
 
 li {
     list-style: none;
@@ -54,4 +62,25 @@ header {
  }
 
  /*SECTION HERO*/
- 
+
+ .imghero{
+width: 55%;
+ }
+
+ .herodiv{
+    width: 20%;
+ }
+
+
+ /*SECTION PROJET*/
+
+ .lacarte{
+    width: 1000px;
+    background-color: #2746f3;
+
+ }
+
+.gap{
+    gap: 15px;
+}
+
