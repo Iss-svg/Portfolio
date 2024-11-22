@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Odibee+Sans&display=swap');
+/*import premet d'importer une font choisi sur un site de font comme font awsom, de la coller sur une feuille de style et de l'appliquer*/
 
+
+/* en fesant * on selection tout le contenu de la page, avec margin 0, et padding 0, on élimine toute les marges,et padding mis automatiquement par le navigateur, et avec font style on choix la font qui sera appliquer à toute la page*/
 *{
     margin: 0;
     padding: 0;
     font-family: "Inter", serif;
 }
 
+/*width50 permet la boite a laquelle on à mis la classe de prendre 50% de la (section,div)/ note: pensée a créer différente class width (ex:width30,width40,width50,width60) en cas de desoin*/
 .width50{
     width: 50%;
 }
+
+/*permet de mettre le mot en gras selon la typographie*/
 .bold{
     font-weight: 600;
 }
 
+/*permet de rendre la transition sur la poge entre l'id et l'element lié plus doux*/
 html{
     scroll-behavior: smooth;
 }
+
 
 .flex{
     display: flex;
@@ -25,9 +33,6 @@ html{
     align-items: center;
 }
 
-.alSpace{
-    justify-content: space-around;
-}
 
 .spacebetwen{
     justify-content: space-between;
@@ -39,15 +44,36 @@ html{
     margin: auto;
 }
 
-.btn{
-    background-color: #0948f6;
-    border-radius: 4px;
-    padding: 10px;
+/*couleur de backgroud noir*/
+.backgB{
+    background-color: black;
     color: white;
-    display: inline-block;
-    margin-top: 10px;
 }
 
+/*couleur de background blanc*/
+.backgW{
+    background-color: white;
+    color: black;
+}
+/*le bouton*/
+.btn{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px;
+    color: rgb(7, 7, 7);
+    display: inline-block;
+    margin-top: 10px;
+    border: solid;
+    transition: 0.3s;
+}
+/*permet d'avoir un change de couleur ou de taille de police lorsque l'on passe la sourie devant les element ayant cette classe*/
+.btn:hover{
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+/*permet d'enlever le style par défaut d'une liste*/
 li {
     list-style: none;
 }
@@ -57,16 +83,25 @@ a {
 }
 
 /*HEADER*/
+/*taille du header*/
 .navHeader{
     /*background-color: beige;*/
     width: 76%;
 }
+
 
 header {
     /* background-color: yellow;*/
      padding: 15px 15px;
  }
 
+header a:hover{
+    border-color: white;
+    color: white;
+    background-color: black;
+}
+
+ /*taille de l'image ou du logo du header*/
  header img{
     width:5%;
 
@@ -85,14 +120,7 @@ width: 55%;
 
  /*SECTION PROJET*/
 
-.backgB{
-    background-color: black;
-    color: white;
-}
-.backgW{
-    background-color: white;
-    color: black;
-}
+
  .lacarte{
     width: 1000px;
     /*background-color: #2746f3;*/
@@ -109,28 +137,30 @@ width: 55%;
     width: 58%;
 }
 
+/*permet d'espacer les titres*/
 .text{
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.text2{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
+/*padding de la section*/
 .paddinSes{
     padding: 35px;
 }
+
+/*padding de la div*/
 .paddinDiv{
     padding: 15px;
 }
 
+
+/*pour encadrer les langage utiliser*/
 .liper{
     background-color: lightgray;
     width: 210px;
     margin-top: 5px;
-    border: solid;
+    border-radius: 5px;
+    
 }
 
 .magtop{
@@ -139,11 +169,13 @@ width: 55%;
 
 /*SECTION A PROPOS DE MOI*/
 
+/*taille du paragraphe a propos de moi*/
 .imgPm{
     width: 29%;
     
 }
 
+/*taille des image importer html et css*/
 .imgPm img{
     width: 60px;
     height: 66px;
@@ -152,7 +184,6 @@ width: 55%;
 .limarg{
     margin-bottom: 7px;
 }
-
 
 
 /*footer*/
