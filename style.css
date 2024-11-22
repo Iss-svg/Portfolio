@@ -6,6 +6,9 @@
     font-family: "Inter", serif;
 }
 
+.width50{
+    width: 50%;
+}
 .bold{
     font-weight: 600;
 }
@@ -42,7 +45,7 @@ html{
     padding: 10px;
     color: white;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 li {
@@ -76,33 +79,87 @@ width: 55%;
  }
 
  .herodiv{
-    width: 20%;
+    width: 30%;
  }
 
 
  /*SECTION PROJET*/
 
+.backgB{
+    background-color: black;
+    color: white;
+}
+.backgW{
+    background-color: white;
+    color: black;
+}
  .lacarte{
     width: 1000px;
-    background-color: #2746f3;
+    /*background-color: #2746f3;*/
     border-radius: 12px;
-    border: solid;
-
  }
 
 .lacarte img {
         width: 372px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 12px;
-
+        height: 250px;
+       
 }
 
 .lacarte div {
-    width: 40%;
+    width: 58%;
 }
 
 .text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.paddinSes{
+    padding: 35px;
+}
+.paddinDiv{
+    padding: 15px;
+}
+
+.liper{
+    background-color: lightgray;
+    width: 210px;
+    margin-top: 5px;
+    border: solid;
+}
+
+.magtop{
+    margin-top: 25px;
+}
+
+/*SECTION A PROPOS DE MOI*/
+
+.imgPm{
+    width: 29%;
+    
+}
+
+.imgPm img{
+    width: 60px;
+    height: 66px;
+}
+
+.limarg{
+    margin-bottom: 7px;
+}
+
+
+
+/*footer*/
+.texCen{
+    padding: 50px;
     text-align: center;
+    color: gray;
+    margin-top: 34px;
 }
 
