@@ -164,10 +164,11 @@ width: 55%;
 
 /*pour encadrer les langage utiliser*/
 .liper{
-    background-color: lightgray;
+    background-color: rgb(211, 211, 211);
     width: 210px;
     margin-top: 5px;
     border-radius: 5px;
+    padding: 5px;
     
 }
 
@@ -178,12 +179,26 @@ width: 55%;
 /*SECTION A PROPOS DE MOI*/
 
 /*taille du paragraphe a propos de moi*/
-.imgPm{
-    width: 29%;
-    
+
+/*pour mettre une margin bottom au premier et second h3 de la section*/
+.textC{
+    margin-bottom: 30px;
+}
+
+.textD{
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.propsWidth{
+    width: 40%;
 }
 
 
+.imgPm{
+    width: 100%;
+    
+}
 
 /*taille des image importer html et css*/
 .imgPm img{
@@ -191,10 +206,15 @@ width: 55%;
     height: 66px;
 }
 
+/*créer un peu d'espace entre les listes*/
 .limarg{
     margin-bottom: 7px;
 }
 
+/*SECTION CONTACT*/
+.ftw{
+    font-weight: 700;
+}
 
 /*footer*/
 .texCen{
