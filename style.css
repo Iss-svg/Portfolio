@@ -92,8 +92,17 @@ a {
 
 header {
     /* background-color: yellow;*/
-     padding: 15px 15px;
- }
+     padding: 0px 50px;
+     position: fixed;
+     background-color: white;
+    
+border: solid;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+ 
 
 
  /*taille de l'image ou du logo du header*/
@@ -112,6 +121,14 @@ width: 55%;
     width: 30%;
  }
 
+ .magses{
+    margin-top: 70px;
+ }
+
+ /*padding de la section*/
+.paddinSes{
+    padding: 35px;
+}
 
  /*SECTION PROJET*/
 
@@ -138,10 +155,6 @@ width: 55%;
     margin-bottom: 30px;
 }
 
-/*padding de la section*/
-.paddinSes{
-    padding: 35px;
-}
 
 /*padding de la div*/
 .paddinDiv{
@@ -169,6 +182,8 @@ width: 55%;
     width: 29%;
     
 }
+
+
 
 /*taille des image importer html et css*/
 .imgPm img{
