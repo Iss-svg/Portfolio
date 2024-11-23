@@ -95,11 +95,6 @@ header {
      padding: 15px 15px;
  }
 
-header a:hover{
-    border-color: white;
-    color: white;
-    background-color: black;
-}
 
  /*taille de l'image ou du logo du header*/
  header img{
