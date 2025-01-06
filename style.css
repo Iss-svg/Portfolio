@@ -227,7 +227,13 @@ width: 55%;
     .none{
         display: none;
     }
-    .medium100{
+    .medium50{
+        width: 50%;
+    }
+}
+
+@media all and (max-width:500px){
+    .large100{
         width: 100%;
     }
 }
