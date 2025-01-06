@@ -139,7 +139,7 @@ width: 55%;
  }
 
 .lacarte img {
-        width: 372px;
+        width: 39%;
         height: 250px;
        
 }
@@ -223,3 +223,11 @@ width: 55%;
     margin-top: 34px;
 }
 
+@media all and (max-width:500px){
+    .none{
+        display: none;
+    }
+    .medium100{
+        width: 100%;
+    }
+}
