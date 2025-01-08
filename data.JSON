@@ -1,0 +1,94 @@
+{
+    "projet": [
+      {
+        "nomProjet": "La ruche",
+        "descriptionProjet": "Un site web simple pour appredre les flex box",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"Flexbox,HTML,CSS,Intégartion front end, mise en page",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Chateau de la loire",
+        "descriptionProjet": "Un site web simple pour apprendre le positionnement des div",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"HTML,CSS,Positionnement,Intégration front end",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Page artiste",
+        "descriptionProjet": "Le premiere site web qu’on a consue pour solidifier nos base dans le html et css",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"HTML,CSS,Intégration front end",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "tichef",
+        "descriptionProjet": "Un site pour apprendre a intégrer des données JSON et les bases de JavaScript",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"HTML,CSS,JavaScript,Intégration de donnée JSON,Intégration front end",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Fake Shop Api",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"Intégration de donnée API",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Projet JS",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"HTML,CSS,JavaScript,Intégration de donnée JSON",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Alumni",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2024",
+        "hardSkill":"Design thinking,UI/UX design,Management,conception de maquette low fidelity,conception de maquette mid fidelity",
+        "softSkill":"",
+        "grpindividuel":"Groupe"
+      },
+      {
+        "nomProjet": "Site loufoque",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2025",
+        "hardSkill":"Utilisation de CMS -> Webflow, Utilisation de l'IA -> content",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Olympe",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2025",
+        "hardSkill":"Utilisation CMS -> Webflow, Base de donnée webflow",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      },
+      {
+        "nomProjet": "Spline",
+        "descriptionProjet": "",
+        "imageUrl": "",
+        "date":"2025",
+        "hardSkill":"3D web interactif",
+        "softSkill":"",
+        "grpindividuel":"individuel"
+      }
+    ]
+  }
