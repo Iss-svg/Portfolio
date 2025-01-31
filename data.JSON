@@ -1,5 +1,4 @@
-{
-  "projet": [
+ [
     {
       "nomProjet": "La ruche",
       "descriptionProjet": "Un site web simple pour appredre les flex box",
@@ -91,4 +90,3 @@
       "grpindividuel": "individuel"
     }
   ]
-}
