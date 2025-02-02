@@ -21,3 +21,16 @@ fetch('data.json')
 
 
     })
+
+    // ** Fonction : afficher **
+// Rôle : Afficher une recette dans la page HTML en le stylisant, sous forme de cartes ou d'autres composants visuels
+// Paramètre : "prod",  un objet représentant un produit contenant les informations des recettes
+// Retour : Cette fonction ne retourne rien (elle effectue des manipulations DOM)
+
+function affiche(recette) {
+    console.log(recette.nomProjet)
+    console.log(recette.descriptionProjet)
+    console.log(recette.date)
+    console.log(recette.hardSkill)
+    console.log(recette.grpindividuel)
+ };
