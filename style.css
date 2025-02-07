@@ -146,6 +146,10 @@ width: 55%;
        
 }
 
+.pipe{
+    padding: 0 1rem;
+  }
+
 
 /*permet d'espacer les titres*/
 .text{
