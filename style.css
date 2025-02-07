@@ -167,10 +167,10 @@ width: 55%;
 /*pour encadrer les langage utiliser*/
 .liper{
     background-color: rgb(211, 211, 211);
-    width: 210px;
     margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
+    width: 20%;
     
 }
 
@@ -184,13 +184,13 @@ width: 55%;
 
 /*pour mettre une margin bottom au premier et second h3 de la section*/
 .textC{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .textD{
 
     margin-top: 15px;
-    margin-bottom: 9px;
+    margin-bottom: 5px;
 }
 .propsWidth{
     width: 40%;
